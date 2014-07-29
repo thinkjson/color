@@ -1,4 +1,4 @@
-playing-with-color
+color
 ==================
 
-pretty self-explanatory
+find new colors by mixing old ones
