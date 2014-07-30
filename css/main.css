@@ -1,10 +1,21 @@
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+	padding-top: 100px;
+	background-color: #111;
 }
 
 .swatch {
-	border: 1px solid #333;
 	height: 100px;
 	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #000;
+
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+h2, .swatch {
+	color: #eee;
+	text-shadow: 1px 1px 5px #000;
 }
