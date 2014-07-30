@@ -23,7 +23,7 @@ app.controller('MainController', ['$scope', function($scope) {
 
 	$scope.rgb2hex = function(red, green, blue) {
 		var rgb = blue | (green << 8) | (red << 16);
-    	return '#' + ("000000" + rgb.toString(16)).substr(-6);
+    	return ("000000" + rgb.toString(16)).substr(-6);
 	}
 
 	$scope.mix = function(red, green, blue) {
