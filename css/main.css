@@ -19,3 +19,7 @@ h2, .swatch {
 	color: #eee;
 	text-shadow: 1px 1px 5px #000;
 }
+
+h3 {
+	font-size: 22px;
+}
