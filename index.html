@@ -26,7 +26,7 @@
               ng-click="mix(swatch.0, swatch.1, swatch.2)">
               <div class="swatch col-xs-12"
                 style="background-color: rgb({{swatch.0}}, {{swatch.1}}, {{swatch.2}});">
-                <h3 ng-bind="#{{rgb2hex(swatch.0,swatch.1,swatch.2)}}"></h3>
+                <h3 ng-bind-template="#{{rgb2hex(swatch.0,swatch.1,swatch.2)}}"></h3>
               </div>
             </div>
           </div>
